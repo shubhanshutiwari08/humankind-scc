@@ -8,24 +8,24 @@ import disc from "../assets/disc.svg"
 
 export default function Endtwo() {
   return (
-    <div className='flex p-10'>
-        <div className='p-5'>
-            <h1>humankind</h1>
-            <p>stay human. be kind.</p>
-            <div className="flex space-between">
+    <div className='flex p-20'>
+        <div className='p-10'>
+            <h1 className='font-bold text-7xl font-mono'>humankind</h1>
+            <p className='font-serif text-2xl my-3'>stay human. be kind.</p>
+            <div className="flex space-evenly">
                 <a className='mx-2' href="#"> <img src={disc} alt="" /> </a>
                 <a className='mx-2' href="#"> <img src={ins} alt="" /> </a>
                 <a className='mx-2' href="#"> <img src={link} alt="" /> </a>
                 <a className='mx-2' href="#"> <img src={os} alt="" /> </a>
                 <a className='mx-2' href="#"> <img src={twi} alt="" /> </a>
             </div>
-            <div className='flex '>
+            <div className='flex my-3 '>
                 <button className="border-4 border-black  p-3 rounded-full pointer-cursor bg-black text-white hover:bg-red-500" >Bur a Lunchbox</button>
-                <button className="border-4 border-black  p-3 rounded-full pointer-cursor  text-black">Join our Discord</button>
+                <button className="border-4 border-black  p-3 mx-5 rounded-full pointer-cursor  text-black">Join our Discord</button>
             </div>
-            <p>Humankind Industries Inc. 2023</p>
+            <p className='font-serif text-xl my-3'>Humankind Industries Inc. 2023</p>
         </div>
-        <img className='w-[50%]' src={endtwo} alt="" />       
+        <img className='w-[50%] mx-[150px]' src={endtwo} alt="" />       
     </div>
   )
 }
